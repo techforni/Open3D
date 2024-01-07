@@ -12,7 +12,12 @@ class App :public Application
 
     void onInit(HWND hWnd)
     {
-        ctx.createContext(hWnd);
+        ctx.createContext(hWnd, 800, 800);
+
+        float color[4] = { 0.0f, 0.5f, 0.5f, 1.0f};
+        ctx._gpuContext->ClearRenderTargetView(ctx._renderView, color);
+
+        ctx._swapChain->Present(0, 0);
     }
     void onUpdate()
     {
