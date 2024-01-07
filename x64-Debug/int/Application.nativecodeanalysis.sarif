@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/gabri/source/repos/open3d/renderengine/source/application.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "5b277b634377f7aa1b4785a16013ce5ca40523060de18b8da5c3c71b6f551563"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gabri/source/repos/open3d/renderengine/include/application.hpp"
+          },
+          "hashes": {
+            "sha-256": "ebdbd24d3d47af0dcfeddaada7aefa8d35100ee10d94ba78cf215675eb782df2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gabri/source/repos/open3d/renderengine/include/util.h"
+          },
+          "hashes": {
+            "sha-256": "cef14c986741f2943ae86fae79f85e64d967f446e465e727043a92ed351b9d6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gabri/source/repos/open3d/renderengine/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "5918aa256f18ff1cc337f9ca44b0c8ab5e89c4934673bd1413a334ecfb21c0fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gabri/source/repos/open3d/renderengine/include/glfw/glfw3native.h"
+          },
+          "hashes": {
+            "sha-256": "8671d67d786c7cf43f77cadabcec5c8b3e7c4bb6ccac6553d2cb4833a5c7f12d"
+          }
+        }
+      ]
+    }
+  ]
+}
