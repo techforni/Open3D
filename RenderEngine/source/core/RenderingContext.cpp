@@ -1,4 +1,4 @@
-#include "RenderingContext.hpp"
+#include "core/RenderingContext.hpp"
 
 namespace Open3D::Render
 {

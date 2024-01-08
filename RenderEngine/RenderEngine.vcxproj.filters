@@ -13,24 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="File di intestazione\core">
+      <UniqueIdentifier>{abf74a9c-8125-4453-abbc-b63e5e55f7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\core">
+      <UniqueIdentifier>{ff9d4db6-ed16-4e38-af77-43ecb023893d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\render">
+      <UniqueIdentifier>{6dc20e11-fb06-4cb5-9649-2afd3a5c30a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\render">
+      <UniqueIdentifier>{bf774657-14f2-431a-a63e-6c22b9a5ce35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\Application.cpp">
-      <Filter>File di origine</Filter>
-    </ClCompile>
-    <ClCompile Include="source\RenderingContext.cpp">
-      <Filter>File di origine</Filter>
-    </ClCompile>
+    <ClInclude Include="include\core\Application.hpp">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\RenderingContext.hpp">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\Util.h">
+      <Filter>File di intestazione\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\render\ClearColor.hpp">
+      <Filter>File di intestazione\render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Open3D.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Application.hpp">
-      <Filter>File di intestazione</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Util.h">
-      <Filter>File di intestazione</Filter>
-    </ClInclude>
-    <ClInclude Include="include\RenderingContext.hpp">
-      <Filter>File di intestazione</Filter>
-    </ClInclude>
+    <ClCompile Include="source\core\Application.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\core\RenderingContext.cpp">
+      <Filter>File di origine\core</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
